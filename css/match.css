@@ -1,0 +1,26 @@
+.match-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 40px;
+}
+
+.match-item:last-child {
+    margin-bottom: 80px;
+}
+
+.match-title {
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.match-number {
+    color: var(--accent-text-color);
+    margin-bottom: 32px;
+}
+
+.text {
+    margin-bottom: 16px;
+}

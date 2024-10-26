@@ -1,0 +1,44 @@
+.img-text-container {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 40px;
+}
+
+.signs-title {
+    max-width: 174px;
+    text-align: left;
+    line-height: 2;
+}
+
+.horoscope-text-container {
+    margin-bottom: 32px;
+}
+
+.horoscope-text {
+    margin-bottom: 16px;
+}
+
+.horoscope-slogan {
+    margin-bottom: 34px;
+}
+
+.horoscope-item:not(:last-child) {
+    margin-bottom: 36px;
+}
+
+.icon-title-container {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 8px;
+}
+
+.horoscope-icon {
+    fill: var(--active-icon-color)
+}
+
+.horoscope-sub-title {
+    font-weight: 700;
+    font-size: 16px;
+}
