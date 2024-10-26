@@ -1,0 +1,39 @@
+.hero-title {
+    margin-bottom: 24px;
+}
+
+.signs-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 32px;
+}
+
+.signs-item {
+    position: relative;
+    width: fit-content;
+    flex-basis: calc((100% - 64px) / 3);
+}
+
+.signs-item img {
+    width: 112px;
+    height: auto;
+    margin-bottom: 4px;
+    transition: opacity 0.3s ease;
+}
+
+.color {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.signs-item:hover .color,
+.signs-item:focus .color {
+    opacity: 1;
+}
+
+.signs-text {
+    text-align: center;
+}

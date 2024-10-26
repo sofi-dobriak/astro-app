@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Astro App</title>
+
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/hero-list.css">
+    <link rel="stylesheet" href="./css/footer.css">
+</head>
+
+<body>
+    <header class="visually-hidden">Header</header>
+
+    <main>
+        <div class="section">
+            <div class="container">
+                <h2 class="title hero-title">Обери свій знак зодіаку</h2>
+
+                <ul class="signs-list">
+                    <li class="signs-item">
+                        <a class="signs-link" href="./oven.html">
+                            <img src="./images/images-no-color/Овен.png"
+                                srcset="./images/images-no-color/Овен.png 1x, ./images/images-no-color/Овен@2x.png 2x"
+                                alt="Овен">
+                            <img class="color" src="./images/images-with-color/Овен.png"
+                                srcset="./images/images-with-color/Овен.png 1x, ./images/images-with-color/Овен@2x.png 2x"
+                                alt="Овен">
+                            <p class="signs-text">Бандеровен</p>
+                        </a>
+                    </li>
+
+                    <li class="signs-item">
+                        <a class="signs-link" href="">
+                            <img src="./images/images-no-color/Телець.png"
+                                srcset="./images/images-no-color/Телець.png 1x, ./images/images-no-color/Телець@2x.png 2x"
+                                alt="Телець">
+                            <img class="color" src="./images/images-with-color/Телець.png"
+                                srcset="./images/images-with-color/Телець.png 1x, ./images/images-with-color/Телець@2x.png 2x"
+                                alt="Телець">
+                            <p class="signs-text">Бандерець</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <ul class="footer-list">
+            <li class="footer-item">
+                <a class="footer-link current" href="">
+                    <svg class="footer-icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-moon"></use>
+                    </svg>
+                    Гороскоп
+                </a>
+            </li>
+            <li class="footer-item">
+                <a class="footer-link" href="">
+                    <svg class="footer-icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-heart"></use>
+                    </svg>
+                    Сумісність
+                </a>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
