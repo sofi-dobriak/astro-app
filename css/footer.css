@@ -22,8 +22,7 @@
     transition: color .3s, fill .3s;
 }
 
-.footer-link:hover,
-.footer-link:focus {
+.footer-link:hover {
     color: var(--active-link-color);
     fill: var(--active-icon-color);
 }

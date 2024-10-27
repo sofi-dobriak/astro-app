@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Astro App</title>
+
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/hero-list.css">
+    <link rel="stylesheet" href="./css/horoscope.css">
+    <link rel="stylesheet" href="./css/footer.css">
+</head>
+
+<body>
+    <header class="visually-hidden">Header</header>
+
+    <main>
+        <div class="section">
+            <div class="container">
+                <div class="img-text-container">
+                    <img src="./images/bliznyuky-color.png"
+                        srcset="./images/bliznyuky-color.png 1x, ./images/bliznyuky-color@2x.png 2x" alt="Близнюки"
+                        width="112">
+                    <p class="signs-title">Прогноз для знаку <span class="text-weight">Бандерюки</span></p>
+                </div>
+
+                <div class="horoscope-text-container">
+                    <p class="horoscope-text">
+                        Близнюки - авантюристи в стилі "пан або пропав". Відпочинок - це пробігти 10 км, попорати худобу
+                        і зробити якусь диверсію на расєї.
+                    </p>
+                    <p>
+                        Оптимісти, рішучі та впевнені в собі, завжди знайдуть пригоди на свою 5-ту точку. Настрій
+                        приблизно як березень: сніг, дощ, град, сонце, цунамі.
+                    </p>
+                </div>
+
+                <p class="horoscope-slogan text-weight">"Хто не ризикує, той не ми, бо ми завжди пʼємо шампанське"</p>
+
+                <ul class="horoscope-list">
+                    <li class="horoscope-item">
+                        <div class="icon-title-container">
+                            <svg class="horoscope-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-gun"></use>
+                            </svg>
+                            <h3 class="horoscope-sub-title">Зброя-талісман</h3>
+                        </div>
+                        <p class="horoscope-description">Багатоцільовий БТР Bastion</p>
+                    </li>
+                    <li class="horoscope-item">
+                        <div class="icon-title-container">
+                            <svg class="horoscope-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-moon"></use>
+                            </svg>
+                            <h3 class="horoscope-sub-title">Гороскоп на 2025</h3>
+                        </div>
+                        <p class="horoscope-description">Насолоджуватися життям тут і зараз</p>
+                    </li>
+                    <li class="horoscope-item">
+                        <div class="icon-title-container">
+                            <svg class="horoscope-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-calendar"></use>
+                            </svg>
+                            <h3 class="horoscope-sub-title">Щасливі числа</h3>
+                        </div>
+                        <p class="horoscope-description">5, 16, 23, 31</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <ul class="footer-list">
+            <li class="footer-item">
+                <a class="footer-link current" href="./index.html">
+                    <svg class="footer-icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-moon"></use>
+                    </svg>
+                    Гороскоп
+                </a>
+            </li>
+            <li class="footer-item">
+                <a class="footer-link" href="./bliznyuky-match-list.html">
+                    <svg class="footer-icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-heart"></use>
+                    </svg>
+                    Сумісність
+                </a>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
