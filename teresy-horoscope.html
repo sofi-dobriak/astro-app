@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Astro App</title>
+
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/hero-list.css">
+    <link rel="stylesheet" href="./css/horoscope.css">
+    <link rel="stylesheet" href="./css/footer.css">
+</head>
+
+<body>
+    <header class="visually-hidden">Header</header>
+
+    <main>
+        <div class="section">
+            <div class="container">
+                <div class="img-text-container">
+                    <img src="./images/telec-color.png"
+                        srcset="./images/telec-color.png 1x, ./images/telec-color@2x.png 2x" alt="Терези" width="112">
+                    <p class="signs-title">Прогноз для знаку <span class="text-weight">Бандерези</span></p>
+                </div>
+
+                <div class="horoscope-text-container">
+                    <p class="horoscope-text">
+                        Терези - з дитинства мають якийсь особливий шарм та привабливість, за що їх неможливо не любити.
+                    </p>
+                    <p>
+                        Живуть у темпі "5 пʼятниць на тиждень". 5 настроїв на хвилину. 5 особистостей на день. Ніколи не
+                        знаєш, чого чекати від
+                        Терезів. Будь-яке рішення приймається 2-3 тижні. А потім ще 20 разів перевіряється.
+                    </p>
+                </div>
+
+                <p class="horoscope-slogan text-weight">"Сам не сплю і вам не дам"</p>
+
+                <ul class="horoscope-list">
+                    <li class="horoscope-item">
+                        <div class="icon-title-container">
+                            <svg class="horoscope-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-gun"></use>
+                            </svg>
+                            <h3 class="horoscope-sub-title">Зброя-талісман</h3>
+                        </div>
+                        <p class="horoscope-description">Безпілотні повітряні системи Ghost</p>
+                    </li>
+                    <li class="horoscope-item">
+                        <div class="icon-title-container">
+                            <svg class="horoscope-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-moon"></use>
+                            </svg>
+                            <h3 class="horoscope-sub-title">Гороскоп на 2025</h3>
+                        </div>
+                        <p class="horoscope-description">Прибавка до зарплати та гармонія</p>
+                    </li>
+                    <li class="horoscope-item">
+                        <div class="icon-title-container">
+                            <svg class="horoscope-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-calendar"></use>
+                            </svg>
+                            <h3 class="horoscope-sub-title">Щасливі числа</h3>
+                        </div>
+                        <p class="horoscope-description">3, 12, 24, 31</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <ul class="footer-list">
+            <li class="footer-item">
+                <a class="footer-link current" href="./index.html">
+                    <svg class="footer-icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-moon"></use>
+                    </svg>
+                    Гороскоп
+                </a>
+            </li>
+            <li class="footer-item">
+                <a class="footer-link" href="./teresy-match-list.html">
+                    <svg class="footer-icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-heart"></use>
+                    </svg>
+                    Сумісність
+                </a>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
