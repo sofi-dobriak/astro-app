@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Astro App</title>
+
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/hero-list.css">
+    <link rel="stylesheet" href="./css/horoscope.css">
+    <link rel="stylesheet" href="./css/footer.css">
+</head>
+
+<body>
+    <header class="visually-hidden">Header</header>
+
+    <main>
+        <div class="section">
+            <div class="container">
+                <div class="img-text-container">
+                    <img src="./images/rak-color.png" srcset="./images/rak-color.png 1x, ./images/rak-color@2x.png 2x"
+                        alt="Рак" width="112">
+                    <p class="signs-title">Прогноз для знаку <span class="text-weight">Бандерак</span></p>
+                </div>
+
+                <div class="horoscope-text-container">
+                    <p class="horoscope-text">
+                        Раки - найчуттєвіші та найбільш емоційні люди, але вперті, тому ніколи з цим не погодяться.
+                    </p>
+                    <p>
+                        Drama Queen усіх знаків зодіаку. Але третє око Раків має найгострішу інтуїцію. Завдяки їхньому
+                        покерфейсу, ви ніколи не здогадаєтеся, що у них в голові: чи то поле з метеликами, чи то план
+                        нападу по чотирьох позиціях.
+                    </p>
+                </div>
+
+                <p class="horoscope-slogan text-weight">"Маєте критику? Залиште її при собі"</p>
+
+                <ul class="horoscope-list">
+                    <li class="horoscope-item">
+                        <div class="icon-title-container">
+                            <svg class="horoscope-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-gun"></use>
+                            </svg>
+                            <h3 class="horoscope-sub-title">Зброя-талісман</h3>
+                        </div>
+                        <p class="horoscope-description">Реактивні системи залпового вогню</p>
+                    </li>
+                    <li class="horoscope-item">
+                        <div class="icon-title-container">
+                            <svg class="horoscope-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-moon"></use>
+                            </svg>
+                            <h3 class="horoscope-sub-title">Гороскоп на 2025</h3>
+                        </div>
+                        <p class="horoscope-description">Подорожі та втілення в життя нових ідей</p>
+                    </li>
+                    <li class="horoscope-item">
+                        <div class="icon-title-container">
+                            <svg class="horoscope-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-calendar"></use>
+                            </svg>
+                            <h3 class="horoscope-sub-title">Щасливі числа</h3>
+                        </div>
+                        <p class="horoscope-description">3, 12, 25, 30</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <ul class="footer-list">
+            <li class="footer-item">
+                <a class="footer-link current" href="./index.html">
+                    <svg class="footer-icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-moon"></use>
+                    </svg>
+                    Гороскоп
+                </a>
+            </li>
+            <li class="footer-item">
+                <a class="footer-link" href="./rak-match-list.html">
+                    <svg class="footer-icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-heart"></use>
+                    </svg>
+                    Сумісність
+                </a>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
