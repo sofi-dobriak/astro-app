@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Astro App</title>
+
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/hero-list.css">
+    <link rel="stylesheet" href="./css/horoscope.css">
+    <link rel="stylesheet" href="./css/footer.css">
+</head>
+
+<body>
+    <header class="visually-hidden">Header</header>
+
+    <main>
+        <div class="section">
+            <div class="container">
+                <div class="img-text-container">
+                    <img src="./images/skorpion-color.png"
+                        srcset="./images/skorpion-color.png 1x, ./images/skorpion-color@2x.png 2x" alt="Скорпіон"
+                        width="112">
+                    <p class="signs-title">Прогноз для знаку <span class="text-weight">Бандерпіон</span></p>
+                </div>
+
+                <div class="horoscope-text-container">
+                    <p class="horoscope-text">
+                        Скорпіони - незалежні, самостійні, сталеві особистості, але з чуйною душею і добрим серцем, які
+                        ви ніколи не побачите.
+                    </p>
+                    <p>
+                        Дуже складна і глибока натура. Якщо Скорпіон обрав вас у друзі/партнери, то можете почуватися як
+                        "Оскар" на поличці у
+                        ДіКапріо. Якщо ваша думка йде всупереч їхній, то ви її зміните.
+                    </p>
+                </div>
+
+                <p class="horoscope-slogan text-weight">"Я не злопамʼятний, але все памʼятаю"</p>
+
+                <ul class="horoscope-list">
+                    <li class="horoscope-item">
+                        <div class="icon-title-container">
+                            <svg class="horoscope-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-gun"></use>
+                            </svg>
+                            <h3 class="horoscope-sub-title">Зброя-талісман</h3>
+                        </div>
+                        <p class="horoscope-description">Ракетні установки HIMARS</p>
+                    </li>
+                    <li class="horoscope-item">
+                        <div class="icon-title-container">
+                            <svg class="horoscope-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-moon"></use>
+                            </svg>
+                            <h3 class="horoscope-sub-title">Гороскоп на 2025</h3>
+                        </div>
+                        <p class="horoscope-description">Проявіть творчу натуру</p>
+                    </li>
+                    <li class="horoscope-item">
+                        <div class="icon-title-container">
+                            <svg class="horoscope-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-calendar"></use>
+                            </svg>
+                            <h3 class="horoscope-sub-title">Щасливі числа</h3>
+                        </div>
+                        <p class="horoscope-description">6, 9, 27, 28</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <ul class="footer-list">
+            <li class="footer-item">
+                <a class="footer-link current" href="./index.html">
+                    <svg class="footer-icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-moon"></use>
+                    </svg>
+                    Гороскоп
+                </a>
+            </li>
+            <li class="footer-item">
+                <a class="footer-link" href="./skorpion-match-list.html">
+                    <svg class="footer-icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-heart"></use>
+                    </svg>
+                    Сумісність
+                </a>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
