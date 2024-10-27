@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 
 <head>
     <meta charset="UTF-8">
@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/hero-list.css">
+    <link rel="stylesheet" href="./css/horoscope.css">
     <link rel="stylesheet" href="./css/footer.css">
 </head>
 
@@ -20,34 +21,37 @@
     <main>
         <div class="section">
             <div class="container">
-                <h2 class="title hero-title">Обери свій знак зодіаку</h2>
+                <div class="img-text-container">
+                    <img src="./images/Овен-колір.png"
+                        srcset="./images/Овен-колір.png 1x, ./images/Овен-колір@2x.png 2x" alt="Овен" width="112">
+                    <p class="signs-title">Сумісність для знаку <span class="text-weight">Бандеровен</span></p>
+                </div>
 
                 <ul class="signs-list">
                     <li class="signs-item">
-                        <a class="signs-link" href="./oven-horoscope.html">
-                            <div class="img-text-container">
-                                <img src="./images/Овен-чб.png"
-                                    srcset="./images/Овен-чб.png 1x, ./images/Овен-чб@2x.png 2x" alt="Овен" width="112">
-                            </div>
-                            <div class="img-text-container">
-                                <img class="color" src="./images/Овен-колір.png"
-                                    srcset="./images/Овен-колір.png 1x, ./images/Овен-колір@2x.png 2x" alt="Овен"
-                                    width="112">
-                            </div>
+                        <a class="signs-link" href="./oven-oven.html">
+                            <img src="./images/Овен-чб.png" srcset="./images/Овен-чб.png 1x, ./images/Овен-чб@2x.png 2x"
+                                alt="Овен">
+                            <img class="color" src="./images/Овен-колір.png"
+                                srcset="./images/Овен-колір.png 1x, ./images/Овен-колір@2x.png 2x" alt="Овен"
+                                width="112">
                             <p class="signs-text">Бандеровен</p>
                         </a>
                     </li>
 
                     <li class="signs-item">
-                        <a class="signs-link" href="./telec-horoscope.html">
+                        <a class="signs-link" href="./oven-telec.html">
                             <img src="./images/Телець-чб.png"
                                 srcset="./images/Телець-чб.png 1x, ./images/Телець-чб@2x.png 2x" alt="Телець">
                             <img class="color" src="./images/Телець-колір.png"
-                                srcset="./images/Телець-колір.png 1x, ./images/Телець-колір@2x.png 2x" alt="Телець">
+                                srcset="./images/Телець-колір.png 1x, ./images/Телець-колір@2x.png 2x" alt="Телець"
+                                width="112">
                             <p class="signs-text">Бандерець</p>
                         </a>
                     </li>
+
                 </ul>
+
             </div>
         </div>
     </main>
@@ -55,17 +59,17 @@
     <footer class="footer">
         <ul class="footer-list">
             <li class="footer-item">
-                <a class="footer-link current" href="">
+                <a class="footer-link" href="./index.html">
                     <svg class="footer-icon" width="24" height="24">
-                        <use href="./images/icons.svg#icon-moon"></use>
+                        <use href="/images/icons.svg#icon-moon"></use>
                     </svg>
                     Гороскоп
                 </a>
             </li>
             <li class="footer-item">
-                <a class="footer-link" href="">
+                <a class="footer-link current" href="./oven-match-list.html">
                     <svg class="footer-icon" width="24" height="24">
-                        <use href="./images/icons.svg#icon-heart"></use>
+                        <use href="/images/icons.svg#icon-heart"></use>
                     </svg>
                     Сумісність
                 </a>
